@@ -95,7 +95,7 @@ const LandingPage: React.FC = () => {
       <header className="px-4 lg:px-6 h-16 flex items-center bg-white shadow-sm">
         <Link className="flex items-center justify-center" href="#">
           <Rocket className="h-6 w-6 text-purple-600" />
-          <span className="ml-2 text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">Alberto Márquez Investments</span>
+          <span className="ml-2 text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">Alberto Márquez</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link className="text-sm font-medium hover:text-purple-600 transition-colors" href="#portfolio">
@@ -115,10 +115,10 @@ const LandingPage: React.FC = () => {
             <div className="flex flex-col items-center space-y-4 text-center text-white">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                  Empowering the Next Generation of Startups
+                  Investing in the Next Generation of Startups
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-100 md:text-xl">
-                  Early-stage investments in innovative technology companies. Building the future, one startup at a time.
+                  Early-stage investments in innovative technology companies.
                 </p>
                 <p className="mx-auto max-w-[700px] text-gray-100 md:text-xl">
                   Building the future, one startup at a time.
