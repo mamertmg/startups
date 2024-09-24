@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
-import { ArrowRight, BarChart2, Briefcase, Rocket, ExternalLink } from "lucide-react"
+import { ArrowRight, BarChart2, Briefcase, Rocket, ExternalLink, Menu, X } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import emailjs from "@emailjs/browser";
@@ -39,6 +39,8 @@ const startups = [
 
 const LandingPage: React.FC = () => {
 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);  // State for burger menu
+
   const [mailData, setMailData] = useState<MailData>({
     name: "",
     startup: "",
@@ -53,6 +55,10 @@ const LandingPage: React.FC = () => {
   const { name, startup, email } = mailData;
 
   const [error, setError] = useState<boolean | null>(null);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) =>
     setMailData({ ...mailData, [e.target.name]: e.target.value });
@@ -95,20 +101,43 @@ const LandingPage: React.FC = () => {
       <header className="px-4 lg:px-6 h-16 flex items-center bg-white shadow-sm">
         <Link className="flex items-center justify-center" href="#">
           <Rocket className="h-6 w-6 text-purple-600" />
-          <span className="ml-2 text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">Alberto Márquez</span>
+          <span className="ml-2 text-sm lg:text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">Alberto Márquez</span>
         </Link>
-        <nav className="ml-auto flex gap-4 sm:gap-6">
-          <Link className="text-sm font-medium hover:text-purple-600 transition-colors" href="#portfolio">
+        <div className="ml-auto flex items-center">
+          {/* Burger Icon for small screens */}
+          <button className="lg:hidden" onClick={toggleMenu}>
+            {isMenuOpen ? <X className="h-6 w-6 text-purple-600" /> : <Menu className="h-6 w-6 text-purple-600" />}
+          </button>
+          {/* Full menu for larger screens */}
+          <nav className="hidden lg:flex gap-4 sm:gap-6">
+            <Link className="text-sm font-medium hover:text-purple-600 transition-colors" href="#portfolio">
+              Portfolio
+            </Link>
+            <Link className="text-sm font-medium hover:text-purple-600 transition-colors" href="#approach">
+              Approach
+            </Link>
+            <Link className="text-sm font-medium hover:text-purple-600 transition-colors" href="#contact">
+              Contact
+            </Link>
+          </nav>
+        </div>
+      </header>
+
+      {/* Conditional rendering for the menu on small screens */}
+      {isMenuOpen && (
+        <nav className="lg:hidden flex flex-col items-center gap-4 py-4 bg-white shadow-md">
+          <Link className="text-sm font-medium hover:text-purple-600 transition-colors" href="#portfolio" onClick={toggleMenu}>
             Portfolio
           </Link>
-          <Link className="text-sm font-medium hover:text-purple-600 transition-colors" href="#approach">
+          <Link className="text-sm font-medium hover:text-purple-600 transition-colors" href="#approach" onClick={toggleMenu}>
             Approach
           </Link>
-          <Link className="text-sm font-medium hover:text-purple-600 transition-colors" href="#contact">
+          <Link className="text-sm font-medium hover:text-purple-600 transition-colors" href="#contact" onClick={toggleMenu}>
             Contact
           </Link>
         </nav>
-      </header>
+      )}
+      
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400">
           <div className="container mx-auto px-4 md:px-6">
