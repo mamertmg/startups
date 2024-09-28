@@ -37,6 +37,15 @@ const newsItems: NewsItem[] = [
   },
   {
     id: '3',
+    title: 'Turiscool, el Netflix de las escuelas de turismo.',
+    description: 'La plataforma de Turiscool permite a las empresas del canal HORECA ahorrar más de un 60% del tiempo de formación.',
+    company: 'Turiscool',
+    image: 'https://s1.elespanol.com/2024/02/15/invertia/disruptores-innovadores/disruptores/startups/832927398_239996684_1706x960.jpg',
+    date: '2024-02-18',
+    url: 'https://www.elespanol.com/invertia/disruptores-innovadores/disruptores/startups/20240218/escuela-hosteleria-online-ayuda-intur-fuerte-hoteles-tener-equipo-formado-motivado/832917132_0.html',
+  },
+  {
+    id: '4',
     title: 'El gigante inmobiliario Engel & Völkers confia en Nester.',
     description: 'Nester ha pasado de gestionar 1.500 inmuebles a 20.000 en año y medio.',
     company: 'Nester',
@@ -45,7 +54,7 @@ const newsItems: NewsItem[] = [
     url: 'https://www.elespanol.com/invertia/observatorios/vivienda/20240305/espanola-nester-digitalizara-servicio-property-management-gigante-inmobiliario-engel-volkers/836416719_0.html',
   },
   {
-    id: '4',
+    id: '5',
     title: 'Incapto consigue 6M€ para impulsar su actividad.',
     description: 'Francia, Italia y Portugal son los primeros mercados a los que se abre la startup catalana.',
     company: 'Incapto',
@@ -54,7 +63,7 @@ const newsItems: NewsItem[] = [
     url: 'https://elreferente.es/inversiones/incapto-consigue-6me-para-impulsar-su-actividad-internacional/',
   },
   {
-    id: '5',
+    id: '6',
     title: 'Nester levanta una ronda de 1,2M€ para su expansión.',
     description: 'La proptech, especializada en software para la gestión de activos, fundada en 2021 por Alex Purull, fue una de las dos compañías españolas en entrar en la pasada edición de la aceleradora de Amazon Web Service (AWS) y se incorporó a Lanzadera el año pasado.',
     company: 'Nester',
@@ -63,7 +72,7 @@ const newsItems: NewsItem[] = [
     url: 'https://www.ejeprime.com/files/2020/empresas/nester/FoundersB-728.jpg',
   },
   {
-    id: '6',
+    id: '7',
     title: 'Hr bot factory cierra el 2022 aumentando su plantilla en un 80% y doblando su facturación',
     description: 'La Inteligencia Artificial de esta startup se encarga de los procesos de selección de personal de empresas como Prosegur, SEUR, Grupo Dia y Quirónsalud.',
     company: 'HR Bot Factory',
