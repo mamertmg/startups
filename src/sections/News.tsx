@@ -65,7 +65,7 @@ const newsItems: NewsItem[] = [
   {
     id: '6',
     title: 'Nester levanta una ronda de 1,2M€ para su expansión.',
-    description: 'La proptech, especializada en software para la gestión de activos, fundada en 2021 por Alex Purull, fue una de las dos compañías españolas en entrar en la pasada edición de la aceleradora de Amazon Web Service (AWS) y se incorporó a Lanzadera el año pasado.',
+    description: 'La proptech, especializada en software para la gestión de activos, entró en la aceleradora de (AWS) y se incorporó a Lanzadera en 2022.',
     company: 'Nester',
     image: 'https://www.ejeprime.com/files/2020/empresas/nester/FoundersB-728.jpg',
     date: '2023-11-10',
@@ -73,8 +73,8 @@ const newsItems: NewsItem[] = [
   },
   {
     id: '7',
-    title: 'Hr bot factory cierra el 2022 aumentando su plantilla en un 80% y doblando su facturación',
-    description: 'La Inteligencia Artificial de esta startup se encarga de los procesos de selección de personal de empresas como Prosegur, SEUR, Grupo Dia y Quirónsalud.',
+    title: 'Hr bot factory cierra el 2022 aumentando su plantilla.',
+    description: 'La IA de esta startup se encarga de los procesos de selección de Prosegur, SEUR, Grupo Dia y Quirónsalud.',
     company: 'HR Bot Factory',
     image: 'https://www.rrhhdigital.com/wp-content/uploads/userfiles/hrbotfactory-fundadores.jpg',
     date: '2023-02-23',
