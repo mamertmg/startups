@@ -27,6 +27,9 @@ const Header = () => {
               <Link className="text-sm font-medium hover:text-purple-600 transition-colors" href="#portfolio">
               Portfolio
               </Link>
+              <Link className="text-sm font-medium hover:text-purple-600 transition-colors" href="#news">
+              News
+              </Link>
               <Link className="text-sm font-medium hover:text-purple-600 transition-colors" href="#approach">
               Approach
               </Link>
@@ -41,6 +44,9 @@ const Header = () => {
           <nav className="lg:hidden flex flex-col items-center gap-4 py-4 bg-white shadow-md">
             <Link className="text-sm font-medium hover:text-purple-600 transition-colors" href="#portfolio" onClick={toggleMenu}>
               Portfolio
+            </Link>
+            <Link className="text-sm font-medium hover:text-purple-600 transition-colors" href="#news" onClick={toggleMenu}>
+              News
             </Link>
             <Link className="text-sm font-medium hover:text-purple-600 transition-colors" href="#approach" onClick={toggleMenu}>
               Approach
