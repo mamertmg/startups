@@ -17,8 +17,17 @@ interface NewsItem {
 }
 
 const newsItems: NewsItem[] = [
-  {
+    {
     id: '1',
+    title: 'BCAS y MyInvestor se unen para facilitar soluciones financieras personalizadas a los estudiantes',
+    description: 'l acuerdo permite a los estudiantes financiados por BCAS acceder a una amplia gama de opciones financieras, incluyendo préstamos a condiciones preferentes y becas remuneradas.',
+    company: 'Bcas',
+    image: 'https://emprendedores.es/wp-content/uploads/Equipo-Bcas.jpg.avif',
+    date: '2024-10-01',
+    url: 'https://emprendedores.es/formacion/bcas-y-myinvestor-soluciones-financieras-personalizadas-a-los-estudiantes/',
+  },
+  {
+    id: '2',
     title: 'LinkedIn Top Startups 2024: las 20 empresas emergentes más prometedoras de España.',
     description: '#LinkedInNews has recognized Incapto as the third #TopStartups2024 nationwide in Spain.',
     company: 'Incapto',
@@ -27,7 +36,7 @@ const newsItems: NewsItem[] = [
     url: 'https://www.linkedin.com/pulse/linkedin-top-startups-2024-las-20-empresas-emergentes-7stzc/?trackingId=dtGmtvYbYeUpY%2Bq3VWqYZA%3D%3D',
   },
   {
-    id: '2',
+    id: '3',
     title: 'Spanish edtech Bcas closes €17M round.',
     description: 'Spanish edtech Bcas to expand flexible financing solution for students.',
     company: 'Bcas',
@@ -36,7 +45,7 @@ const newsItems: NewsItem[] = [
     url: 'https://techfundingnews.com/spanish-edtech-bcas-scores-e17m-to-expand-flexible-financing-solution-for-students/',
   },
   {
-    id: '3',
+    id: '4',
     title: 'Turiscool, el Netflix de las escuelas de turismo.',
     description: 'La plataforma de Turiscool permite a las empresas del canal HORECA ahorrar más de un 60% del tiempo de formación.',
     company: 'Turiscool',
@@ -45,7 +54,7 @@ const newsItems: NewsItem[] = [
     url: 'https://www.elespanol.com/invertia/disruptores-innovadores/disruptores/startups/20240218/escuela-hosteleria-online-ayuda-intur-fuerte-hoteles-tener-equipo-formado-motivado/832917132_0.html',
   },
   {
-    id: '4',
+    id: '5',
     title: 'El gigante inmobiliario Engel & Völkers confia en Nester.',
     description: 'Nester ha pasado de gestionar 1.500 inmuebles a 20.000 en año y medio.',
     company: 'Nester',
@@ -54,7 +63,7 @@ const newsItems: NewsItem[] = [
     url: 'https://www.elespanol.com/invertia/observatorios/vivienda/20240305/espanola-nester-digitalizara-servicio-property-management-gigante-inmobiliario-engel-volkers/836416719_0.html',
   },
   {
-    id: '5',
+    id: '6',
     title: 'Incapto consigue 6M€ para impulsar su actividad.',
     description: 'Francia, Italia y Portugal son los primeros mercados a los que se abre la startup catalana.',
     company: 'Incapto',
@@ -63,7 +72,7 @@ const newsItems: NewsItem[] = [
     url: 'https://elreferente.es/inversiones/incapto-consigue-6me-para-impulsar-su-actividad-internacional/',
   },
   {
-    id: '6',
+    id: '7',
     title: 'Nester levanta una ronda de 1,2M€ para su expansión.',
     description: 'La proptech, especializada en software para la gestión de activos, entró en la aceleradora de (AWS) y se incorporó a Lanzadera en 2022.',
     company: 'Nester',
@@ -72,7 +81,7 @@ const newsItems: NewsItem[] = [
     url: 'https://www.ejeprime.com/files/2020/empresas/nester/FoundersB-728.jpg',
   },
   {
-    id: '7',
+    id: '8',
     title: 'Hr bot factory cierra el 2022 aumentando su plantilla.',
     description: 'La IA de esta startup se encarga de los procesos de selección de Prosegur, SEUR, Grupo Dia y Quirónsalud.',
     company: 'HR Bot Factory',
