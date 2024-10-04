@@ -19,8 +19,8 @@ interface NewsItem {
 const newsItems: NewsItem[] = [
     {
     id: '1',
-    title: 'BCAS y MyInvestor se unen para facilitar soluciones financieras personalizadas a los estudiantes',
-    description: 'l acuerdo permite a los estudiantes financiados por BCAS acceder a una amplia gama de opciones financieras, incluyendo préstamos a condiciones preferentes y becas remuneradas.',
+    title: 'BCAS y MyInvestor se unen.',
+    description: 'El acuerdo permite a los estudiantes financiados por BCAS acceder a una amplia gama de opciones financieras.',
     company: 'Bcas',
     image: 'https://emprendedores.es/wp-content/uploads/Equipo-Bcas.jpg.avif',
     date: '2024-10-01',
