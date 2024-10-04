@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="flex flex-col items-center space-y-4 text-center text-white">
         <div className="space-y-2">
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-            Investing in the Next Generation of Startups
+            Investing in the Next Generation of Startups in Spain
           </h1>
           <p className="mx-auto max-w-[700px] text-gray-100 md:text-xl">
             Early-stage investments in innovative technology companies.
