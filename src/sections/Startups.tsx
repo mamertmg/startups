@@ -15,7 +15,7 @@ interface Startup {
 
 const startups = [
     { name: 'Bcas', description: 'Unlocking access to quality education through student finance', website: 'https://bcasapp.com/' , phase: 'active' ,logo: 'https://startups-marqueza.s3.eu-central-1.amazonaws.com/bcas-logo.png' },
-    { name: 'HR Bot Factory', description: 'Recruitment software powered by AI generative', website: 'https://www.hrbotfactory.com/', phase: 'active', logo: 'https://startups-marqueza.s3.eu-central-1.amazonaws.com/hr-bot-factory-logo.png' },
+    { name: 'Velora HR', description: 'Plataforma de Gestión de Talento con IA', website: 'https://www.velorahr.com/', phase: 'active', logo: 'https://startups-marqueza.s3.eu-central-1.amazonaws.com/velora.svg' },
     { name: 'Incapto Coffee', description: 'Buy freshly roasted specialty coffee beans', website: 'https://incapto.com/', phase: 'active', logo: 'https://startups-marqueza.s3.eu-central-1.amazonaws.com/incapto-coffee-logo.png' },
     { name: 'Simplr', description: 'All-in-one platform to streamline your operations', website: 'https://www.simplr.io/es-es', phase: 'inactive', logo: 'https://startups-marqueza.s3.eu-central-1.amazonaws.com/simplr-logo.png' },
     { name: 'Nester', description: 'Simplify the management of your rental properties', website: 'https://www.nestersoftware.com/', phase: 'active', logo: 'https://startups-marqueza.s3.eu-central-1.amazonaws.com/nester.png' },
