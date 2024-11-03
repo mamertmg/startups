@@ -17,6 +17,15 @@ interface NewsItem {
 }
 
 const newsItems: NewsItem[] = [
+  {
+    id: '10',
+    title: 'Bcas entra en Alemania',
+    description: 'Bcas extenderá en septiembre a Alemania su fórmula del estudia ahora, paga después',
+    company: 'Bcas',
+    image: 'https://theobjective.com/wp-content/uploads/2024/08/bcas-fundadores.jpg',
+    date: '2024-10-28',
+    url: 'https://theobjective.com/economia/2024-08-06/bcas-alemania-estudia-ahora-paga-despues/',
+  },
     {
     id: '9',
     title: 'El lanzamiento de Velora',
